@@ -11,7 +11,7 @@ class Navbar extends React.Component {
              <div> 
                  <AppBar position="static">
                     <Toolbar>
-                        Nome do app
+                        Van Pra Facul
                     </Toolbar>
                  </AppBar>
              </div>
