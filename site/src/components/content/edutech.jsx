@@ -118,7 +118,7 @@ class Edutech extends React.Component {
                     </Grid>
                 </Grid>
                 
-                <Grid container justify="center" style={{marginTop: "5vh"}}>
+                <Grid container justify="center" style={{marginTop: "5vh", marginBottom: "5vh"}}>
                     <Button variant="outlined" onClick={() => this.setState({ open: true })}>Manda Links</Button>
 
                     <AutoRotatingCarousel
