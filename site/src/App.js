@@ -9,6 +9,7 @@ import Navbar from './components/shared/navbar';
 import Main from './components/router/main';
 import Footer from './components/shared/footer';
 import Itinerary from './components/content/itinerary';
+import Edutech from './components/content/edutech';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Navbar />
       <Main />
       <Itinerary />
+      <Edutech />
       <Footer />
     </div>
   );
