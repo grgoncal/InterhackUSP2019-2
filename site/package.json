@@ -7,12 +7,15 @@
     "@material-ui/icons": "^4.5.1",
     "firebase": "^7.3.0",
     "google-maps-react": "^2.0.2",
+    "material-auto-rotating-carousel": "^3.0.2",
     "material-ui-image": "^3.2.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-native-google-maps-directions": "^2.1.1",
+    "react-parallax": "^2.2.4",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "react-swipeable-views": "^0.13.3"
   },
   "scripts": {
     "start": "react-scripts start",
