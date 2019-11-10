@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+// FIREBASE
+import './utils/firebaseUtils.js';
+
+// COMPONENTS
+import Navbar from './components/shared/navbar';
+import Main from './components/router/main';
+import Footer from './components/shared/footer';
+import Itinerary from './components/content/itinerary';
+import Edutech from './components/content/edutech';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Main />
+      <Itinerary />
+      <Edutech />
+      <Footer />
     </div>
   );
 }
