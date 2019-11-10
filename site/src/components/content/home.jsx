@@ -12,9 +12,9 @@ class Home extends React.Component {
             <React.Fragment>
                 <Grid container alignItems="center" justify="center" style={{marginTop: "10vh", marginBottom: "10vh"}}>
                     <Grid item xs>
-                        <img src={require('./van.png')} style={{width: '45vh', height: 'auto'}}></img>
+                        <img src={require('./van.png')} alt="" style={{width: '45vh', height: 'auto'}}></img>
                     </Grid>
-                    <Grid item xs spacing={2}>
+                    <Grid item xs>
                         <Typography variant="h3" gutterBottom m={3} > 
                             <Box fontFamily="Montserrat" color="#3333cc">
                                 VAN Pra Facu!
